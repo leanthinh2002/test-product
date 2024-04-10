@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        #flip,#panel{
+            padding: 15px;
+            font-size: 20px;
+            text-align: center;
+            background-color: #555;
+            width: White;
+            border: 1px solid #666;
+            border-radius: 5px;
+        }
+        #panel{
+            display: none;
+            padding: 50px;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $("#flip").click(function(){
+                $("#panel").slideDown(5000);
+            });
+            $("#stop").click(function(){
+                $("#panel").stop();
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <button id="stop">
+        Stop Sliding
+
+    </button>
+    <div id="flip">
+        click to slide down panel
+    <div id="panel">
+        Xin chào bạn Hải đẹp trai
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buoi 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Inline list</h1>
+        <ul class="list-inline">
+            <li><a href="">Home</a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">Sản Phẩm</a></li>
+            <li><a href="">Hàng bán chạy</a></li>
+        </ul>
+    </div>
+    <br>
+    <div class="container">
+        <h1>Inline list</h1>
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">Sản Phẩm</a></li>
+            <li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">Hàng bán chạy</a></li>
+            <ul class="dropdown-menu">
+                <li><a href="">Laptop</a></li>
+                <li><a href="">PC</a></li>
+                <li><a href="">Điện thoại</a></li>
+                <li><a href="">Camera</a></li>
+                <li><a href="">Thiết bị mạng</a></li>
+            </ul>
+        </ul>
+    </div>
+
+    
+
+    <div class="container">
+        <h2>Ngôn ngữ</h2>
+        <div class="dropdown">
+            <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">Ngôn ngữ<span class="caret"></span> </button>
+            <ul class="dropdown-menu">
+                <li class="active"><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">Jquery</a></li>
+                <li><a href="">Bootstrap</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Các trạng thái của Button</h1>
+        <button class="btn">Basic</button>
+        <button class="btn btn">Defaul </button>
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-denger">Danger</button>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <form>
+        <div class="input-group">
+           
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input class="form-control" name="email" id="email" placeholder="Email">
+
+        </div><br>
+        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input class="form-control" name="passwword" id="passwword" class="form-control" placeholder="passwword">
+        </div>
+        <br>
+        <br>
+        <br>
+
+    </form>
+
+
+    <form>
+        <div class = "form-group has-feedback">
+            <label for="email">Email Address</label>
+            <input class="form-control" id="email">
+            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+        </div>
+        
+    </form>
+
+
+
+    <div class="form-group has-success has-feedback">
+    <label class="col-sm-2 control-label" for="input-success">Có thể sửa dụng</label>
+    <div class="col-sm-10"></div>
+    <input class="form-control" type="text" id="input-success">
+    <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+    </div>
+
+    <div class="Form-group has-warning has-feedback">
+        <label class="col-sm-2 control-label" for="input-warning">Cảnh báo về nhập dữ liệu</label>
+        <div class="col-sm-10"></div>
+        <input class="form-control" type="text" id="input-warning">
+        <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+    </div>
+
+    <div class="form-group has-error has-feedback">
+        <label class="col-sm-2 control-label" for="input-warning">Dữ liệu chưa phù hợp</label>
+        <div class="col-sm-10"></div>
+        <input class="form-control" type="text" id="inputerror">
+        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+    </div>
+
+</body>
+</html>
